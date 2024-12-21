@@ -45,7 +45,7 @@ namespace SteamDeckDeployer
 		{
 			// Extract the directory and filename from the original path
 			string originalDirectory = System.IO.Path.GetDirectoryName(defaultOptions.locationPathName);
-			string fileName = "SteamDeckBuild";
+			string fileName = "SteamDeckBuild.exe";
 
 			// Create the new path by adding "SteamDeck" before the .exe file
 			string newDirectory = System.IO.Path.Combine(originalDirectory, "SteamDeck");
